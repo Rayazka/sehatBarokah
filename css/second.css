@@ -1,0 +1,181 @@
+.penyakit {
+  color: #555;
+}
+
+.penyakit .container {
+  margin-bottom: 3em;
+}
+
+.penyakit .container .capt {
+  padding-left: 4.5em;
+}
+
+.penyakit .container .col p {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.parallax {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/spaTools_1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/spaTools_1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -50px;
+  padding: 40px 0 50px 0;
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.parallax .capt {
+  margin-bottom: 1.5em;
+  font-weight: 330;
+}
+
+.parallax .card {
+  border: none;
+  background: transparent;
+}
+
+.parallax .card .card-title {
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.parallax .card .card-text {
+  margin-top: .7rem;
+  font-size: 1.3em;
+  font-weight: 350;
+}
+
+.kontak-layanan {
+  text-align: center;
+  background-color: #FF7F4F;
+  padding: 2em;
+}
+
+.kontak-layanan a {
+  background-color: #25d366;
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+
+.kontak-layanan a:hover {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.kontak {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../img/minyak_bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/minyak_bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -150px;
+  padding: 7em 0;
+}
+
+.kontak h1 {
+  color: #fff;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.kontak p {
+  color: #fff;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  font-weight: 350;
+}
+
+.kontak .capt {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.kontak .note {
+  margin-bottom: 30px;
+}
+
+.kontak a {
+  background-color: transparent;
+  color: white;
+  border: 2px solid whitesmoke;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  font-size: 20px;
+  padding: 8px 20px;
+  letter-spacing: 1px;
+}
+
+.kontak a:hover {
+  background-color: #25d366;
+  border: 2px solid #25d366;
+  color: white;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #212121;
+  padding: 1.2em 0;
+}
+
+footer p, footer a, footer ul, footer li {
+  margin: 0;
+  text-align: center;
+}
+
+footer .row a:hover {
+  color: #ff8f66;
+}
+
+footer .row a {
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+footer .row .col {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: .5px;
+}
+
+footer .row ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+footer .row ul li {
+  padding: 0 20px;
+}
+
+footer .cr {
+  font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=second.css.map */

@@ -1,0 +1,131 @@
+// responsive
+@media screen and (max-width: 768px){
+   .banner{
+      background-position: -700px -100px !important;
+      background-size: auto;
+      .container{     
+         .brand{
+            margin: 5.5em 0 12em 0;
+            .title{
+               font-size: 3em;
+            }
+
+         }
+         .btn{
+            margin-bottom: 2.5em !important;
+            font-size: 20px !important;
+            padding: 8px 20px !important;
+         }    
+         .banner-text{
+            padding: 0;
+         }
+         .nav-link{
+            font-size: 22px !important;
+         }
+      }
+   }
+
+   .penyakit{
+      .col{
+         p{
+            margin-bottom: 10px !important;
+         }
+      }
+      .capt{
+         padding-left: 0 !important;
+         margin-top: 1em !important;
+         margin-bottom: 12px !important;
+      }
+      .row{
+         flex-direction: column !important;
+      }
+   }
+
+   .parallax{
+      background-position: 50% -5% !important;
+      h1{
+         font-size:3em !important;
+      }
+   }
+
+   .welcome{
+      .judul{
+         h1{
+            font-size: 2em;
+            margin-bottom: 1em;
+         }
+         .capt{
+            font-size: 20px !important;
+            margin-bottom: 1em;
+         }
+      }
+   }
+
+   .kontak-layanan{
+      .container{
+         a{
+            font-size: 20px;
+         }
+      }
+   }
+
+   .kontak{
+      background-position: -450px 0px !important;
+      background-size: auto !important;
+      h1{
+            font-size: 3.5em !important;
+            margin-bottom: .5em !important;
+         }
+   }
+
+   footer{
+      .row{
+         flex-direction: column;
+         .col{
+            font-size: 16px !important;
+         }
+         .brand{
+            margin-bottom: 15px;
+         }
+         .menu{
+            margin-bottom: 20px;
+            ul{
+               padding: 0;
+               li{
+                  padding:0 5px;
+                  a{
+                     font-size: 14px !important;
+                  }
+               }
+            }
+         }
+         .cr{
+            font-size:12px;
+         }
+      }
+   }
+}
+
+// Banner text animation
+@keyframes animate {
+   0%{
+      opacity: 0;
+      transform: translateY(-50px);
+   }
+   2%{
+      opacity: 1;
+      transform: translateY(0px);
+   }
+   18%{
+      opacity: 1;
+      transform: translateY(0px);
+   }
+   20%{
+      opacity: 0;
+      transform: translateY(50px);
+   }
+   100%{
+      opacity: 0;
+      transform: translateY(50px);
+   }
+}

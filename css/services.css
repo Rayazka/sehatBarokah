@@ -1,0 +1,38 @@
+.pelayanan {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 6em 0 3em 0;
+}
+
+.pelayanan .judul h1 {
+  color: #09E466;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.pelayanan .judul .capt {
+  font-size: 1.5em;
+}
+
+.pelayanan .service-card {
+  margin: 2.2em 0;
+}
+
+.pelayanan .service-card .card {
+  border: none;
+  background-color: #f5f5f5;
+}
+
+.pelayanan .service-card .card .card-title {
+  font-size: 1.5em;
+}
+
+.pelayanan .service-card .card .card-text {
+  font-size: 1.25em;
+}
+
+.pelayanan .service-card .card .fas {
+  font-size: 2.2em;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .container-fluid {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner {
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/pijatTangan.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pijatTangan.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -50px;
+  text-align: center;
+  -webkit-box-shadow: 0px 15px 10px -15px #111;
+          box-shadow: 0px 15px 10px -15px #111;
+  border-bottom: 6px solid #0EB956;
+  color: white;
+}
+
+.banner .container {
+  padding-top: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.banner .container .brand {
+  margin: 8em 0 10em 0;
+}
+
+.banner .container .brand .title {
+  font-weight: 300;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner .container .brand .caption {
+  font-weight: 300;
+  margin-bottom: 1em;
+  letter-spacing: 1px;
+}
+
+.banner .container .brand a {
+  background-color: transparent;
+  color: white;
+  border: 2px solid whitesmoke;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  font-size: 23px;
+  padding: 10px 25px;
+  margin-bottom: 5em;
+}
+
+.banner .container .brand a:hover {
+  background-color: #25d366;
+  border: 2px solid #25d366;
+  color: white;
+}
+
+.banner .container .banner-text {
+  width: 70%;
+  border-bottom: 2px solid rgba(251, 255, 0, 0.5);
+}
+
+.banner .container .top-nav .navbar a {
+  padding: 5px 40px 20px 40px;
+  font-size: 1.5em;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.banner .container .top-nav .navbar a:hover {
+  color: #14FF77;
+}
+
+.banner .container .top-nav .navbar-toggler {
+  border: none;
+  padding: 5px 0 10px 0;
+}
+
+.banner .container .top-nav .toggle-menu {
+  color: yellow;
+  border: none;
+  letter-spacing: 3px;
+  font-size: 1.3em;
+}
+
+.banner .container .top-nav .active {
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-top: 10px solid #0EB956;
+  border-right: 10px solid transparent;
+  left: 50%;
+  bottom: -16px;
+  position: absolute;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 7em;
+}
+
+.welcome .judul h1 {
+  color: #09E466;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.welcome .judul p {
+  color: #555;
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=main.css.map */

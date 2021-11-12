@@ -1,0 +1,155 @@
+
+.penyakit{
+   color: #555;
+   .container{
+      margin-bottom: 3em;
+      .capt{
+         padding-left: 4.5em;
+      }
+      .col{
+         p{
+            display: list-item;
+            list-style-type: disc;
+            list-style-position: inside;
+         }
+      }
+   }
+}
+
+.parallax {
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/spaTools_1.jpg");
+   background-attachment: fixed;
+   background-size:cover;
+   background-position: 0 -50px;
+
+   padding: 40px 0 50px 0;
+   color: white;
+   text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+
+   .capt{
+      margin-bottom: 1.5em;
+      font-weight: 330;
+   }
+
+   .card{
+      border: none;
+      background:transparent;
+
+      .card-title {
+         color: white;
+         font-size: 2em;
+         font-weight: 500;
+         letter-spacing:1px;
+      }
+      .card-text{
+         margin-top: .7rem;
+         font-size: 1.3em;
+         font-weight: 350;
+      }
+   }
+}
+
+.kontak-layanan {
+   text-align: center;
+   background-color: #FF7F4F;
+   padding: 2em;
+   a{
+      background-color:  #25d366;
+      color: white;
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+      transition: all .3s linear;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+      font-size: 30px;
+   }
+   a:hover{
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+      color: white;
+   }
+}
+
+// Kontak
+.kontak{
+   text-align: center;
+   background:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/minyak_bg.jpg");
+   background-attachment: fixed;
+   background-size:cover;
+   background-position: 0 -150px;
+   padding: 7em 0;
+
+   h1{
+      color: #fff;
+      text-shadow: 1px 1px 10px rgba(0,0,0, 0.5);
+   }
+   p{
+      color: #fff;
+      text-shadow: 1px 1px 10px rgba(0,0,0, 0.5);
+      font-weight: 350;
+   }
+   .capt{
+      margin-top: 20px;
+      margin-bottom: 10px;
+   }
+   .note{
+      margin-bottom: 30px;
+   }
+   a{
+      background-color:  transparent;
+      color: white;
+      border: 2px solid whitesmoke;
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+      transition: all .3s linear;
+      font-size: 20px;
+      padding: 8px 20px;
+      letter-spacing: 1px;
+   }
+   a:hover{
+      background-color:  #25d366;
+      border:2px solid #25d366;
+      color: white;
+   }
+}
+
+footer {
+   overflow: hidden;
+   background-color: #212121;
+   padding: 1.2em 0;
+   p,a,ul,li{
+      margin: 0;
+      text-align: center;
+   }
+   .row {
+      a:hover{
+         color: #ff8f66;
+      }
+      a{
+         display: inline-block;
+         text-decoration: none;
+         color: whitesmoke;
+         transition: all .3s linear;
+      }
+      .col {
+         color: white;
+         font-weight: 500;
+         font-size: 1rem;
+         letter-spacing: .5px;
+      }
+      ul{
+         list-style: none;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         li{
+            padding: 0 20px;
+         }
+      }
+   }
+   .cr{
+      font-size: 16px;
+   }
+}
+
+.hide{
+   display:none;
+}

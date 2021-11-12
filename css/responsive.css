@@ -1,0 +1,146 @@
+@media screen and (max-width: 768px) {
+  .banner {
+    background-position: -700px -100px !important;
+    background-size: auto;
+  }
+  .banner .container .brand {
+    margin: 5.5em 0 12em 0;
+  }
+  .banner .container .brand .title {
+    font-size: 3em;
+  }
+  .banner .container .btn {
+    margin-bottom: 2.5em !important;
+    font-size: 20px !important;
+    padding: 8px 20px !important;
+  }
+  .banner .container .banner-text {
+    padding: 0;
+  }
+  .banner .container .nav-link {
+    font-size: 22px !important;
+  }
+  .penyakit .col p {
+    margin-bottom: 10px !important;
+  }
+  .penyakit .capt {
+    padding-left: 0 !important;
+    margin-top: 1em !important;
+    margin-bottom: 12px !important;
+  }
+  .penyakit .row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .parallax {
+    background-position: 50% -5% !important;
+  }
+  .parallax h1 {
+    font-size: 3em !important;
+  }
+  .welcome .judul h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  .welcome .judul .capt {
+    font-size: 20px !important;
+    margin-bottom: 1em;
+  }
+  .kontak-layanan .container a {
+    font-size: 20px;
+  }
+  .kontak {
+    background-position: -450px 0px !important;
+    background-size: auto !important;
+  }
+  .kontak h1 {
+    font-size: 3.5em !important;
+    margin-bottom: .5em !important;
+  }
+  footer .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .row .col {
+    font-size: 16px !important;
+  }
+  footer .row .brand {
+    margin-bottom: 15px;
+  }
+  footer .row .menu {
+    margin-bottom: 20px;
+  }
+  footer .row .menu ul {
+    padding: 0;
+  }
+  footer .row .menu ul li {
+    padding: 0 5px;
+  }
+  footer .row .menu ul li a {
+    font-size: 14px !important;
+  }
+  footer .row .cr {
+    font-size: 12px;
+  }
+}
+
+@-webkit-keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+  2% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  18% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+  2% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  18% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

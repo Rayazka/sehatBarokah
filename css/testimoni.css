@@ -1,0 +1,144 @@
+.testimoni {
+  text-align: center;
+  padding: 4.5em 0 4em 0;
+}
+
+.testimoni .judul h1 {
+  color: #09E466;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.testimoni .judul p {
+  color: #555;
+}
+
+.testimoni .testimonial {
+  margin: 0 20px 40px;
+}
+
+.testimoni .testimonial .testimonial-content {
+  padding: 20px 20px 0px 40px;
+  background: #eee;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.testimoni .testimonial-content .testimonial-icon {
+  width: 50px;
+  height: 45px;
+  background: #0cca4a;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  line-height: 42px;
+  position: absolute;
+  top: 37px;
+  left: -19px;
+}
+
+.testimoni .testimonial-content .testimonial-icon:before {
+  content: "";
+  border-bottom: 16px solid #05a739;
+  border-left: 18px solid transparent;
+  position: absolute;
+  top: -16px;
+  left: 1px;
+}
+
+.testimoni .testimonial .description {
+  font-size: 17px;
+  font-style: italic;
+  color: #555;
+  line-height: 23px;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.testimoni .testimonial .title {
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 0 0 5px 0;
+}
+
+.testimoni .testimonial .post {
+  display: block;
+  font-size: 14px;
+  color: #0cca4a;
+}
+
+.testimoni .owl-theme .owl-controls {
+  margin-top: 20px;
+}
+
+.testimoni .writter {
+  padding: 1rem 0;
+  background-color: #212121;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.testimoni .no-js .owl-carousel, .testimoni .owl-carousel.owl-loaded {
+  display: block;
+  position: relative;
+}
+
+.testimoni .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.testimoni .owl-nav .owl-prev, .testimoni .owl-nav .owl-next {
+  margin: 0 !important;
+}
+
+.testimoni .owl-nav .owl-prev span, .testimoni .owl-nav .owl-next span {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  font-size: 7em;
+  color: #FF7F4F;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.testimoni .owl-nav .owl-prev span:hover, .testimoni .owl-nav .owl-next span:hover {
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  font-size: 8em;
+  color: #c75228;
+}
+
+.testimoni .owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+  -webkit-transform: translate(-50px, -22px) !important;
+          transform: translate(-50px, -22px) !important;
+}
+
+.testimoni .owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+  -webkit-transform: translate(40px, -22px) !important;
+          transform: translate(40px, -22px) !important;
+}
+
+.testimoni .owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: transparent;
+}
+
+.testimoni .owl-theme .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 127, 79, 0.3);
+}
+
+.testimoni .owl-theme .owl-dots .owl-dot.active span, .testimoni .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #ff8f66;
+}
+/*# sourceMappingURL=testimoni.css.map */
