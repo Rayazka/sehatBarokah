@@ -81,7 +81,8 @@
     padding: 0 5px;
   }
   footer .row .menu ul li a {
-    font-size: 14px !important;
+    font-size: 16px !important;
+    opacity: 1;
   }
   footer .row .cr {
     font-size: 12px;

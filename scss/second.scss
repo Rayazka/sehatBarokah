@@ -89,16 +89,22 @@
       margin-top: 20px;
       margin-bottom: 10px;
    }
-   .note{
+
+   .location {
+      font-size:1.5em;
       margin-bottom: 30px;
+      span{
+         padding-left: 10px;
+         font-size: 1em;
+      }
    }
    a{
+      transition: all .3s linear !important;
       background-color:  transparent;
       color: white;
       border: 2px solid whitesmoke;
       text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
       box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-      transition: all .3s linear;
       font-size: 20px;
       padding: 8px 20px;
       letter-spacing: 1px;
@@ -121,11 +127,14 @@ footer {
    .row {
       a:hover{
          color: #ff8f66;
+         opacity: 1;
       }
       a{
+         font-size: 20px;
          display: inline-block;
          text-decoration: none;
          color: whitesmoke;
+         font-weight: 400;
          transition: all .3s linear;
       }
       .col {
@@ -142,11 +151,36 @@ footer {
          text-align: center;
          li{
             padding: 0 20px;
+            a{
+               opacity:0.85;
+            }
          }
       }
    }
    .cr{
+      margin-top: 1.5em;
       font-size: 16px;
+      color: white;
+      opacity: 0.75;
+   }
+   .social{
+      a{
+         padding:0 10px 0 10px;
+         color:whitesmoke;
+      }
+   }
+}
+
+.map-responsive{
+   height: 400px ;
+   overflow:hidden;
+   position:relative;
+   iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
    }
 }
 

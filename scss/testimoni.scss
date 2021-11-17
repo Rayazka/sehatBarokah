@@ -6,7 +6,7 @@
 
    .judul{
       h1{
-         color: #09E466;
+         color: #0cca4a;
          font-weight: 500;
          margin-bottom: .5rem;
       }
@@ -29,7 +29,7 @@
    .testimonial-content .testimonial-icon {
       width: 50px;
       height: 45px;
-      background: #0cca4a;
+      background: #05a739;
       text-align: center;
       font-size: 22px;
       color: #fff;
@@ -47,7 +47,8 @@
       left: 1px;
    }
    .testimonial .description {
-      font-size: 17px;
+      font-size: 18px;
+      font-weight: 500;
       font-style: italic;
       color: #555;
       line-height: 23px;
@@ -65,19 +66,22 @@
    }
    .testimonial .post {
       display: block;
-      font-size: 14px;
-      color: #0cca4a;
+      font-size: 16px;
+      color: white;
    }
    .owl-theme .owl-controls {
       margin-top: 20px;
    }
 
    .writter{
-      padding: 1rem 0;
-      background-color: #212121;
+      padding: .8rem 0;
+      background-color: #05a739;
       border-bottom-right-radius:5px;
       border-bottom-left-radius:5px;
       box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+      h3{
+         margin: 0 !important;
+      }
    }
    
    .no-js .owl-carousel, .owl-carousel.owl-loaded {
