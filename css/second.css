@@ -1,21 +1,3 @@
-.penyakit {
-  color: #555;
-}
-
-.penyakit .container {
-  margin-bottom: 3em;
-}
-
-.penyakit .container .capt {
-  padding-left: 4.5em;
-}
-
-.penyakit .container .col p {
-  display: list-item;
-  list-style-type: disc;
-  list-style-position: inside;
-}
-
 .parallax {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/spaTools_1.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/spaTools_1.jpg");
@@ -27,9 +9,13 @@
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
+.parallax h1 {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+}
+
 .parallax .capt {
-  margin-bottom: 1.5em;
-  font-weight: 330;
+  margin: 1em 0 2em 0;
+  font-weight: 300;
 }
 
 .parallax .card {
@@ -85,18 +71,17 @@
 
 .kontak h1 {
   color: #fff;
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
 }
 
 .kontak p {
   color: #fff;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  font-weight: 350;
+  font-weight: 300;
 }
 
-.kontak .capt {
-  margin-top: 20px;
-  margin-bottom: 10px;
+.kontak .note {
+  margin: 0 0 3em 0;
 }
 
 .kontak .location {
@@ -118,7 +103,7 @@
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  font-size: 20px;
+  font-size: 1.5em;
   padding: 8px 20px;
   letter-spacing: 1px;
 }

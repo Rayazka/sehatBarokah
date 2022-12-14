@@ -1,38 +1,32 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome .profile {
+    height: 30em;
+    margin-bottom: 2em;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .banner {
     background-position: -700px -100px !important;
     background-size: auto;
   }
   .banner .container .brand {
-    margin: 5.5em 0 12em 0;
+    margin: 5.5em 0 0 0;
   }
   .banner .container .brand .title {
-    font-size: 3em;
+    font-size: 4em;
   }
   .banner .container .btn {
     margin-bottom: 2.5em !important;
-    font-size: 20px !important;
+    font-size: 1.5em !important;
     padding: 8px 20px !important;
-  }
-  .banner .container .banner-text {
-    padding: 0;
   }
   .banner .container .nav-link {
     font-size: 22px !important;
   }
-  .penyakit .col p {
-    margin-bottom: 10px !important;
-  }
-  .penyakit .capt {
-    padding-left: 0 !important;
-    margin-top: 1em !important;
-    margin-bottom: 12px !important;
-  }
-  .penyakit .row {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+  .welcome .profile {
+    height: 30em;
+    margin-bottom: 2em;
   }
   .parallax {
     background-position: 50% -5% !important;
@@ -47,6 +41,12 @@
   .welcome .judul .capt {
     font-size: 20px !important;
     margin-bottom: 1em;
+  }
+  .welcome .row.penyakit {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
   .kontak-layanan .container a {
     font-size: 20px;
