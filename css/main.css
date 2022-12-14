@@ -195,8 +195,19 @@
 }
 
 .welcome .judul .profile {
-  background-image: url("../img/profile.jpg");
+  background-image: url("../img/profile-2.jpg");
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.welcome .judul .profile:before {
+  content: "Aris Riyanto - Terapis";
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
 }
 /*# sourceMappingURL=main.css.map */
