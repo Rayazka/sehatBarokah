@@ -6,11 +6,7 @@
 .testimoni .judul h1 {
   color: #0cca4a;
   font-weight: 500;
-  margin-bottom: .5rem;
-}
-
-.testimoni .judul p {
-  color: #555;
+  margin-bottom: 0.5rem;
 }
 
 .testimoni .testimonial {
@@ -78,19 +74,20 @@
 }
 
 .testimoni .writter {
-  padding: .8rem 0;
+  padding: 0.8rem 0;
   background-color: #05a739;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 .testimoni .writter h3 {
   margin: 0 !important;
 }
 
-.testimoni .no-js .owl-carousel, .testimoni .owl-carousel.owl-loaded {
+.testimoni .no-js .owl-carousel,
+.testimoni .owl-carousel.owl-loaded {
   display: block;
   position: relative;
 }
@@ -101,19 +98,22 @@
   top: 0;
 }
 
-.testimoni .owl-nav .owl-prev, .testimoni .owl-nav .owl-next {
+.testimoni .owl-nav .owl-prev,
+.testimoni .owl-nav .owl-next {
   margin: 0 !important;
 }
 
-.testimoni .owl-nav .owl-prev span, .testimoni .owl-nav .owl-next span {
+.testimoni .owl-nav .owl-prev span,
+.testimoni .owl-nav .owl-next span {
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   font-size: 7em;
-  color: #FF7F4F;
-  -webkit-transition: all .3s linear;
-  transition: all .3s linear;
+  color: #ff7f4f;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
-.testimoni .owl-nav .owl-prev span:hover, .testimoni .owl-nav .owl-next span:hover {
+.testimoni .owl-nav .owl-prev span:hover,
+.testimoni .owl-nav .owl-next span:hover {
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
   font-size: 8em;
   color: #c75228;
@@ -123,17 +123,17 @@
   position: absolute;
   left: 0;
   -webkit-transform: translate(-50px, -22px) !important;
-          transform: translate(-50px, -22px) !important;
+  transform: translate(-50px, -22px) !important;
 }
 
 .testimoni .owl-nav .owl-next {
   position: absolute;
   right: 0;
   -webkit-transform: translate(40px, -22px) !important;
-          transform: translate(40px, -22px) !important;
+  transform: translate(40px, -22px) !important;
 }
 
-.testimoni .owl-theme .owl-nav [class*=owl-]:hover {
+.testimoni .owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: transparent;
 }
 
@@ -143,7 +143,8 @@
   background-color: rgba(255, 127, 79, 0.3);
 }
 
-.testimoni .owl-theme .owl-dots .owl-dot.active span, .testimoni .owl-theme .owl-dots .owl-dot:hover span {
+.testimoni .owl-theme .owl-dots .owl-dot.active span,
+.testimoni .owl-theme .owl-dots .owl-dot:hover span {
   background-color: #ff8f66;
 }
 /*# sourceMappingURL=testimoni.css.map */
